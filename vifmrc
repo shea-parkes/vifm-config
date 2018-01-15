@@ -3,3 +3,5 @@ set smartcase
 set incsearch
 set scrolloff=3
 windo normal zo
+
+filetype * start, explorer
