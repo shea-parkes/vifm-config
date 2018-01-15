@@ -1,5 +1,5 @@
 set ignorecase
 set smartcase
 set incsearch
-set scrolloff=4
-
+set scrolloff=3
+windo normal zo
