@@ -2,7 +2,7 @@ set ignorecase
 set smartcase
 set incsearch
 set scrolloff=3
-windo normal zo
+set dotfiles
 
 " Open files with standard Windows associations
 filetype * start, explorer
