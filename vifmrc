@@ -24,3 +24,9 @@ nnoremap yn :!echo %"c %i | clip<cr>
 
 " yank root of current file's name to Windows clipboard
 nnoremap yr :!echo -n %c:r | clip<cr>
+
+" open a command prompt in current directory
+nnoremap oo :!start cmd<cr>
+
+" open Windows explorer in current directory
+nnoremap oO :!explorer %"d<cr>
