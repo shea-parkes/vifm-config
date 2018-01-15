@@ -9,9 +9,11 @@ filetype * start, explorer
 
 " yank current directory path to Windows clipboard with forward slashes
 nnoremap yp :!echo %"d:gs!\!/! %i | clip<cr>
+nnoremap yd :!echo %"d:gs!\!/! %i | clip<cr>
 
 " yank current directory path to Windows clipboard with backward slashes
 nnoremap yP :!echo %"d %i | clip<cr>
+nnoremap yD :!echo %"d %i | clip<cr>
 
 " yank path to current file to Windows clipboard with forward slashes
 nnoremap yf :!echo %"c:gs!\!/! %i | clip<cr>
@@ -27,6 +29,10 @@ nnoremap yr :!echo -n %c:r | clip<cr>
 
 " open a command prompt in current directory
 nnoremap oo :!start cmd<cr>
+nnoremap oc :!start cmd<cr>
 
 " open Windows explorer in current directory
-nnoremap oO :!explorer %"d<cr>
+nnoremap oe :!explorer %"d<cr>
+
+" Fully open current file in vim
+nnoremap ov :!start vim %"c<cr>
