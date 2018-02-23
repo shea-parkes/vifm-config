@@ -28,8 +28,8 @@ nnoremap yn :!echo %"c %i | clip<cr>
 nnoremap yr :!echo -n %c:r | clip<cr>
 
 " open a command prompt in current directory
-nnoremap oo :!start cmd<cr>
-nnoremap oc :!start cmd<cr>
+nnoremap oo :!start powershell<cr>
+nnoremap oc :!start powershell<cr>
 
 " open Windows explorer in current directory
 nnoremap oe :!explorer %"d<cr>

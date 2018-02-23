@@ -10,7 +10,7 @@ Custom key bindings provided by this config:
 
 | Keybinding | Action |
 | :--------- | :----- |
-| `oo` or `oc` | Open `cmd.exe` in current directory. |
+| `oo` or `oc` | Open `powershell.exe` in current directory. |
 | `oe` | Open `Explorer.exe` in current directory. |
 | `ov` | Open current file in vim. |
 | `yp` or `yd` | Copy current directory (forward slashes). |
